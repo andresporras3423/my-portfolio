@@ -1,8 +1,9 @@
 <template>
   <div id="app">
+    <navigation></navigation>
+    <presentation></presentation>
     <p>{{msg}}</p>
     <p>{{greeting()}}</p>
-    <navigation></navigation>
   </div>
 </template>
 
