@@ -1,11 +1,14 @@
 <template>
   <div id="app">
     <navigation></navigation>
-    <presentation></presentation>
+    <main>
+      <presentation></presentation>
     <project v-for="(p, index) in projects" 
     :key="index" 
     v-bind:properties="p" 
     v-bind:index="index"></project>
+    </main>
+    <footsection></footsection>
   </div>
 </template>
 
