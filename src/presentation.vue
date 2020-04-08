@@ -21,7 +21,6 @@ export default {
         var that = this
           setTimeout(function(){
         that.colorOpt= (that.colorOpt+1)%2;
-        console.log('created called. '+that.colorOpt);
         that.updateColor()
         }, 1000);
       }
