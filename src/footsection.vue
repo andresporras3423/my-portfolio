@@ -57,7 +57,7 @@ export default {
 .social-links > label {
     width: 30px;
     height: 30px;
-    background-color: rgb(255, 81, 0); 
+    background-color: rgb(161, 169, 234); 
     border-radius: 50%;
     margin-left: 10px;
     margin-right: 10px;

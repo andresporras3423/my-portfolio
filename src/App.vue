@@ -1,6 +1,7 @@
 <template>
-  <div id="app">
-    <navigation></navigation>
+  <div class="app">
+    <div>
+      <navigation></navigation>
     <main>
       <presentation></presentation>
     <project v-for="(p, index) in projects" 
@@ -9,6 +10,7 @@
     v-bind:index="index"></project>
     </main>
     <footsection></footsection>
+    </div>
   </div>
 </template>
 
@@ -19,7 +21,8 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App',
       projects: [{name: 'hihi', description: 'this is an example', github:'', live:'', url:'./src/assets/bogota-houses.png'},
-      {name: 'hihi2', description: 'this is an example2', github:'', live:'', url:'./src/assets/weather-bot.png'}]
+      {name: 'hihi2', description: 'this is an example2', github:'', live:'', url:'./src/assets/weather-bot.png'},
+      {name: 'hihi3', description: 'this is an example3', github:'', live:'', url:'./src/assets/articles.png'}]
     }
   },
   methods: {
@@ -31,5 +34,14 @@ export default {
 </script>
 
 <style>
+  .app{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 1fr;
+  }
 
+  .app > div {
+    grid-column: 2;
+    grid-row: 1;
+  }
 </style>

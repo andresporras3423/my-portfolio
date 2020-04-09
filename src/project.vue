@@ -33,10 +33,15 @@ export default {
 
 <style>
   .project-properties {
+      background-color: white;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr;
-      grid-gap: 50px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+      
   }
 
   .project-properties > * {
@@ -49,8 +54,9 @@ export default {
     width: 100%;
     height: 0;
     padding-top: 40%;
-    z-index: -1;
+    z-index: 1;
     cursor: pointer;
+    border-radius: 10px;
   }
 
   .g-column1{
