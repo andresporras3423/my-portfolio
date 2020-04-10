@@ -3,7 +3,7 @@
       <div class="photo-div">
         <img src="./assets/oscar.jpg" class="photo-style" >
         <article>
-          <h1 class="text-title">> Andrés Porras <span v-bind:class="[colorClass[colorOpt]]">|</span></h1>
+          <h1 class="text-title">> Andrés Porras<span v-bind:class="[colorClass[colorOpt]]">|</span></h1>
           <p>Welcome to my site. I am a software developer, check out below my project and contact info.</p>
         </article>
         

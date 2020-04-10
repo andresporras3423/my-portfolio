@@ -3,9 +3,9 @@
     <div><span class="contact">Contact me</span></div>
     <div>
          <span class="social-links">
-        <label><i class="fa fa-github"></i></label>
-        <label><i class="fa fa-twitter"></i></label>
-        <label><i class="fa fa-linkedin"></i></label>
+        <label><i class="fa fa-github" v-on:click="global.redirect('https://github.com/andresporras3423')"></i></label>
+        <label><i class="fa fa-twitter" v-on:click="global.redirect('https://twitter.com/oscarrussi1')"></i></label>
+        <label><i class="fa fa-linkedin" v-on:click="global.redirect('https://www.linkedin.com/in/oscar-andr%C3%A9s-russi-porras/')"></i></label>
       </span>
     </div>
   </footer>
@@ -15,6 +15,7 @@
 export default {
   data () {
     return {
+      global: this.$eventHub
     }
   },
   methods: {
@@ -31,10 +32,6 @@ export default {
     justify-content: space-evenly;
     align-items: center;
     margin: 0;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center; */
   }
 
   /* .footer-styles > div > span {
@@ -55,8 +52,8 @@ export default {
 }
 
 .social-links > label {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     background-color: rgb(161, 169, 234); 
     border-radius: 50%;
     margin-left: 10px;
@@ -68,7 +65,8 @@ export default {
 .social-links > label > i {
     cursor: pointer;
     position: absolute;
-    top: 7px;
-    left: 8px;
+    top: 9px;
+    left: 9px;
+    font-size: 20px;
 }
 </style>

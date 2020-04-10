@@ -1,7 +1,7 @@
 <template>
   <header class="header-styles">
-    <a>Projects</a>
-    <a>Contact</a>
+    <a v-on:click="scroll(575)">Projects</a>
+    <a v-on:click="scroll(1000)">Contact</a>
   </header>
 </template>
 
@@ -12,6 +12,10 @@ export default {
     }
   },
   methods: {
+    scroll: function(y){
+      debugger;
+      window.scrollBy(window.scrollX, window.scrollY + y);
+    }
   }
 }
 </script>
@@ -26,5 +30,6 @@ export default {
 
   .header-styles > a {
     flex-basis:10%;
+    cursor: pointer;
   }
 </style>
