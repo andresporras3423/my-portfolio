@@ -5,7 +5,7 @@
     <main>
       <presentation></presentation>
       <div class="title-section">
-        <span>My Projects</span>
+        <span class="title-style">My Projects</span>
       </div>
     <project v-for="(p, index) in projects" 
     :key="index" 
@@ -54,7 +54,7 @@ export default {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0;
+    margin: 25px 0 0 0;
   }
 
   .title-section > span {

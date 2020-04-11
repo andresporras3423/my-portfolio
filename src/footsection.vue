@@ -1,6 +1,6 @@
 <template>
   <footer class="footer-styles">
-    <div><span class="contact">Contact me</span></div>
+    <div><span class="contact title-style">Contact me</span></div>
     <div>
          <span class="social-links">
         <label><i class="fa fa-github" v-on:click="global.redirect('https://github.com/andresporras3423')"></i></label>

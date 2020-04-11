@@ -1,6 +1,6 @@
 <template>
   <header class="header-styles">
-    <a v-on:click="scroll(575)">Projects</a>
+    <a v-on:click="scroll(650)">Projects</a>
     <a v-on:click="scroll(1000)">Contact</a>
   </header>
 </template>
@@ -14,7 +14,8 @@ export default {
   methods: {
     scroll: function(y){
       debugger;
-      window.scrollBy(window.scrollX, window.scrollY + y);
+      window.scrollBy(0, y-window.scrollY);
+      //window.scrollBy(window.scrollX, window.scrollY + y);
     }
   }
 }

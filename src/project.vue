@@ -1,5 +1,5 @@
 <template>
-  <section class="project-properties">
+  <section class="project-properties shadow">
       <div v-bind:class="[direction[index%2], photo]" v-bind:style = "giveUrl()" >
       </div>
       <div v-bind:class="[direction[(index+1)%2], info]">
@@ -44,9 +44,6 @@ export default {
       grid-template-rows: 1fr;
       margin-top: 25px;
       margin-bottom: 25px;
-      border-radius: 10px;
-      box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
-      
   }
 
   .project-properties > * {

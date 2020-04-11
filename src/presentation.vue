@@ -8,8 +8,13 @@
         </article>
         
       </div>
-      <article>
-        <h3>About me</h3>
+      <article class="shadow about-section">
+        <h3 class="about-title"> 
+            <div class="red-point point"></div>
+            <div class="yellow-point point"></div>
+            <div class="green-point point"></div>
+            <div class="title-style">About me</div>
+          </h3>
         <div class="about">
           <p><strong>Experience:</strong> +2 years</p>
           <p><strong>Languages:</strong> Ruby, Javascript, PHP, Python, C#</p>
@@ -87,4 +92,60 @@ export default {
     font-family: 'Press Start 2P', cursive;
     color: rgb(161, 169, 234); 
   }
+
+  .about-section{
+    font-family: 'Ubuntu Mono', monospace;
+  }
+
+  .about-title{
+    display: flex;
+    background-color: rgb(223, 222, 225);
+    margin-bottom: 0;
+    align-items: center;
+    font-size: 30px;
+  }
+
+  .about-title > * {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .about{
+    background-color: rgb(90, 93, 122);
+  }
+
+
+  .about > p {
+    color: #35feff;
+    padding: 20px 10px 0px 35px;
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+
+  .about > p:last-of-type {
+    padding-bottom:20px;
+  }
+
+  .about > p > strong {
+    color: white;
+  }
+
+  .red-point{
+    background-color: red;
+  }
+
+  .yellow-point{
+    background-color: yellow;
+  }
+
+  .green-point{
+    background-color: green;
+  }
+
+  .point{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
 </style>
