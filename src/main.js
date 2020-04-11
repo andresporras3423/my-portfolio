@@ -18,5 +18,7 @@ Vue.prototype.$eventHub.redirect = function(url) {
 
 new Vue({
   el: '#app',
-  render: h => h(App)
+  render: function(createElement) {
+    return createElement(App);
+}
 })

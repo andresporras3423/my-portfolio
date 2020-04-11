@@ -20,7 +20,7 @@
 <script>
 export default {
   name: 'app',
-  data () {
+  data: function () {
     return {
       msg: 'Welcome to Your Vue.js App',
       projects: [{name: 'Bogotá Houses', description: 'Directory of real states in Bogotá for selling and renting. Pure HTML and CSS project.', github:'https://github.com/andresporras3423/bogota-houses', live:'http://andresporres.000webhostapp.com/bogota-houses/main.html', url:'./src/assets/bogota-houses.png', tools: ['HTML', 'CSS', 'Bootstrap']},

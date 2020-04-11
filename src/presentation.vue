@@ -28,17 +28,17 @@
 
 <script>
 export default {
-    created(){
+    created: function(){
       this.updateColor();
     },
-  data () {
+  data: function () {
     return {
         colorClass:["","disappear"],
         colorOpt: 0
     }
   },
   methods: {
-      updateColor(){
+      updateColor: function(){
         var that = this
           setTimeout(function(){
         that.colorOpt= (that.colorOpt+1)%2;

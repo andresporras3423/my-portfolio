@@ -19,7 +19,7 @@
 <script>
 export default {
     props: ['properties', 'index'],
-  data () {
+  data: function () {
     return {
         global: this.$eventHub,
         photo: "photo",
@@ -30,7 +30,7 @@ export default {
   },
   methods: {
       giveUrl: function(){
-          return `background-image: url('${this.properties.url}');`
+          return "background-image: url('"+this.properties.url+"');";
       }
   }
 }
