@@ -1,5 +1,5 @@
 <template>
-  <section class="project-properties shadow">
+  <section class="project-properties shadow-style">
       <div v-bind:class="[direction[index%2], photo]" v-bind:style = "giveUrl()" >
       </div>
       <div v-bind:class="[direction[(index+1)%2], info]">

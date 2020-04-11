@@ -8,7 +8,7 @@
         </article>
         
       </div>
-      <article class="shadow about-section">
+      <div class="shadow-style about-section">
         <h3 class="about-title"> 
             <div class="red-point point"></div>
             <div class="yellow-point point"></div>
@@ -22,7 +22,7 @@
           <p><strong>Other tools:</strong> SQL, Git, Linux</p>
           <p><strong>Education:</strong> Systems engineer (UNAD, Colombia), B2 english level (British Council)</p>
         </div>
-      </article>
+      </div>
   </section>
 </template>
 
@@ -146,6 +146,16 @@ export default {
     width: 20px;
     height: 20px;
     border-radius: 50%;
+  }
+
+  .about-section > h3 { 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .about-section > div { 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 
 </style>
