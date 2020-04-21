@@ -1,6 +1,4 @@
-# BOGOTA HOUSES - capstone project
-
-Eight Microverse Project by Oscar Russi
+# MY-PORTFOLIO
 
 ![screenshot](./src/assets/screenshot.png)
 
