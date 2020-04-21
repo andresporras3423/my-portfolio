@@ -34,11 +34,6 @@ export default {
     margin: 0;
   }
 
-  /* .footer-styles > div > span {
-      grid-column: 2;
-      grid-row: 1;
-  } */
-
 .contact{
     font-size: 30px;
 }

@@ -45,10 +45,6 @@ export default {
         that.updateColor()
         }, 1000);
       }
-    //   ,
-    //   hello(){
-    //       console.log('created called.');
-    //   }
   }
 }
 </script>
