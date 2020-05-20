@@ -26,6 +26,8 @@
 - Vue.js
 - Javascript
 
+#### and deployed to GitHub
+
 ## future features
 
 [Upcomming features for my portfolio](https://github.com/andresporras3423/my-portfolio/issues)
@@ -33,8 +35,6 @@
 ## Unit tests
 
 [Unit tests](https://github.com/andresporras3423/my-portfolio/issues/3)
-
-#### and deployed to GitHub
 
 ## Live Version
 
