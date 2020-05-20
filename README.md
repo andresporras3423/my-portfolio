@@ -40,6 +40,12 @@
 
 [Live](https://raw.githack.com/andresporras3423/my-portfolio/master/index.html)
 
+## Project Presentation (VIDEO)
+
+[![Project presentation](./src/assets/screenshot-video.png)](https://www.loom.com/share/6a5bd2ea817a439f958324f69bdd58bc)
+
+[presentation](https://www.loom.com/share/c5492c8765374b67af893cb578cf8aac)
+
 ## Authors
 
 **Oscar Russi**
