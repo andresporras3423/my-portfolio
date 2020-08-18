@@ -397,6 +397,7 @@ cursor: pointer;
 }
 
 @media all and (max-width: 767px) {
+
   .resume > div > h5 {
     font-size:24px;
   }
@@ -451,4 +452,53 @@ cursor: pointer;
     height: 40px;
     font-size: 16px;
   }
+}
+
+@media all and (max-width: 499px) {
+  .header-styles > a {
+    flex-basis:25%;
+    cursor: pointer;
+  }
+
+  .text-title{
+    font-size: 14px;
+  }
+
+  .photo-div > article > p {
+    font-size: 12px;
+  }
+
+  .title-style{
+    font-size: 19px;
+  }
+
+  .about p {
+    font-size: 12px;
+  }
+
+  .resume > div > h5 {
+    font-size: 16px;
+  }
+
+  .project-properties{
+    height: 400px;
+  }
+
+  .project-description{
+    font-size: 10px;
+  }
+
+  .tools-style{
+    font-size: 8px;
+  }
+
+  .project-title{
+    font-size: 22px;
+  }  
+
+  .button-link-style{
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+  } 
 }
