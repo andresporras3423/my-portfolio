@@ -501,4 +501,16 @@ cursor: pointer;
     height: 35px;
     font-size: 14px;
   } 
+
+  .resume {
+    padding-top: 30px;
+  }
+
+  .resume > div{
+    width: 45%;
+  }
+
+  .resume > svg {
+    width: calc(5% + 50px);
+  }
 }
