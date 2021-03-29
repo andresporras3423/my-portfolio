@@ -1,8 +1,7 @@
 function Project() {
-    return (
-      <div></div>
-    );
-  }
-  
-  export default Project;
-  
+  return (
+    <div />
+  );
+}
+
+export default Project;

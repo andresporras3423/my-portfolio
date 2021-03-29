@@ -1,6 +1,6 @@
 function Footsection() {
   return (
-    <div></div>
+    <div />
   );
 }
 
