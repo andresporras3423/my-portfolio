@@ -1,10 +1,267 @@
-.App {
+/* .App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+} */
+
+body {
+  background-color: rgb(246, 249, 252);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.shadow-style{
+  border-radius: 10px;
+  box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+}
+
+
+.title-style{
+  color: 	rgb(90, 93, 122);
+}
+
+.app{
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.app > div {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.a-button{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+.title-section {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 25px 0 0 0;
+}
+
+.title-section > span {
+  font-size: 30px;
+}
+
+.header-styles{
+  display: flex;
+  height: 100px;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.header-styles > a {
+  flex-basis:10%;
+  cursor: pointer;
+}
+
+.disappear{
+  display: none;
+}
+
+.photo-style{
+width: 150px;
+height: 200px;
+border-radius: 50%
+}
+
+.photo-div {
+display: flex;
+}
+
+.photo-div > * {
+margin: 15px;
+}
+
+.photo-div > img {
+flex-basis: 150px;
+}
+
+.photo-div > article {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: center;
+}
+
+.photo-div > article > * {
+flex-basis: 100px;
+}
+
+.text-title{
+font-family: 'Press Start 2P', cursive;
+color: rgb(161, 169, 234); 
+}
+
+.about-section{
+font-family: 'Ubuntu Mono', monospace;
+}
+
+.about-title{
+display: flex;
+background-color: rgb(223, 222, 225);
+margin-bottom: 0;
+align-items: center;
+font-size: 30px;
+}
+
+.about-title > * {
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.about{
+background-color: rgb(90, 93, 122);
+}
+
+
+.about > p {
+color: #35feff;
+padding: 20px 10px 0px 35px;
+margin-bottom: 0;
+font-size: 18px;
+}
+
+.about > p:last-of-type {
+padding-bottom:20px;
+}
+
+.about > p > strong {
+color: white;
+}
+
+.red-point{
+background-color: red;
+}
+
+.yellow-point{
+background-color: yellow;
+}
+
+.green-point{
+background-color: green;
+}
+
+.point{
+width: 20px;
+height: 20px;
+border-radius: 50%;
+}
+
+.about-section > h3 { 
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.about-section > div { 
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.project-properties {
+background-color: white;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.project-properties > * {
+grid-row: 1;
+}
+
+.photo{
+background-size: 100% auto;
+background-repeat: no-repeat;
+width: 100%;
+height: 0;
+padding-top: 40%;
+z-index: 1;
+cursor: pointer;
+}
+
+.g-column1{
+grid-column: 1;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+.g-column2{
+grid-column: 2;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.tools-style{
+border: 1px solid grey;
+border-radius: 10%;
+margin: 5px;
+padding: 5px;
+background-color: rgba(161, 169, 234, 0.5);
+}
+
+.info{
+margin: 10px;
+}
+
+.button-link-style {
+width: 80px;
+height: 40px;
+}
+
+.footer-styles > div{
+float:left;
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin: 0;
+}
+
+.contact{
+font-size: 30px;
+}
+
+.social-links {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+justify-content: center;
+align-items: center;
+}
+
+.social-links > label {
+width: 35px;
+height: 35px;
+background-color: rgb(161, 169, 234); 
+border-radius: 50%;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 15px;
+position: relative;
+}
+
+.social-links > label > i {
+cursor: pointer;
+position: absolute;
+top: 9px;
+left: 9px;
+font-size: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
