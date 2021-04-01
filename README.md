@@ -11,7 +11,7 @@
 
 # Features
 
-- SPA made with Vue.js.
+- SPA made with React.js.
 - Using three different Google fonts.
 - Using Bootstrap for the layout.
 - Using Fontawesome for the icons to the social networks.
@@ -23,7 +23,7 @@
 - Bootstrap.
 - Font-awesome.
 - Google fonts.
-- Vue.js.
+- React.js.
 - JavaScript.
 
 #### and deployed to GitHub
