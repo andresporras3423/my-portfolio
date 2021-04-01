@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 
 function Project(props) {
   const { project, index } = props;
-  console.log(`current project is: ${JSON.stringify(project)}`);
   const photo = 'photo';
   const row1 = 'row1';
+  const info = 'info';
+  const row2 = 'row2';
   const direction = ['g-column1', 'g-column2'];
   const giveUrl = () => {
     const style = { backgroundImage: `url('${project.url}')` };
@@ -17,14 +18,16 @@ function Project(props) {
   return (
     <section className="project-properties shadow-style">
       <div className={[direction[index % 2], photo, row1].join(' ')} style={giveUrl()} />
-      <div className="[direction[(index+1)%2], info, row2]">
+      <div className={[direction[(index + 1) % 2], info, row2].join(' ')}>
         <h3 className="project-title">{project.name}</h3>
         <p className="project-description">{project.description}</p>
-        {
+        <p>
+          {
                     project.tools.map((tool) => (
                       <span className="tools-style" key={nanoid()}>{tool}</span>
                     ))
                   }
+        </p>
         <div>
           <button type="submit" className="btn btn-primary button-link-style" onClick={() => linkCV(project.github)}>GitHub</button>
           <button type="submit" className="btn btn-primary button-link-style" onClick={() => linkCV(project.live)}>Live</button>

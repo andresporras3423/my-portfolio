@@ -7,8 +7,8 @@ function Navigation() {
   return (
     <>
       <header className="header-styles">
-        <button type="submit" className="a-button" onClick={scroll(625)}>Projects</button>
-        <button type="submit" className="a-button" onClick={scroll(7500)}>Contact</button>
+        <a className="a-button" onClick={() => scroll(625)}>Projects</a>
+        <a className="a-button" onClick={() => scroll(7500)}>Contact</a>
       </header>
     </>
   );

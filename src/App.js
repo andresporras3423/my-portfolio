@@ -25,19 +25,20 @@ function App() {
 
   const filterProjects = () => projects;
   return (
-    <div className="App">
-      <div>
-        <Navigation />
-        <main>
-          <Presentation />
-          {
+    <div id="app">
+      <div className="app">
+        <div>
+          <Navigation />
+          <main>
+            <Presentation />
+            {
       filterProjects().map((cProject, index) => (
         <Project project={cProject} index={index} key={nanoid()} />
       ))
   }
-        </main>
-        <Footsection />
-        Hello world
+          </main>
+          <Footsection />
+        </div>
       </div>
     </div>
   );
