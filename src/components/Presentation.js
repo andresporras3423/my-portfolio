@@ -53,7 +53,7 @@ function Presentation() {
             <p>
               <strong>Other tools:</strong>
               {' '}
-              Ruby On Rails, ASP.NET, Angular, SQL, GitHub, Linux
+              Ruby On Rails, ASP.NET, React, Angular, SQL, GitHub, Linux
             </p>
             <p>
               <strong>Education:</strong>
