@@ -38,7 +38,7 @@
 
 ## Live Version
 
-[Live](https://raw.githack.com/andresporras3423/my-portfolio/master/index.html)
+[Live](https://andres-porras-portfolio.netlify.app/)
 
 ## Project Presentation (VIDEO)
 
