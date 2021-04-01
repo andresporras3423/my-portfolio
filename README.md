@@ -1,6 +1,6 @@
 # MY-PORTFOLIO
 
-![screenshot](./src/assets/screenshot.png)
+![screenshot](./public/assets/screenshot.png)
 
 # What it does
 
