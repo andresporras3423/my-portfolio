@@ -6,7 +6,7 @@ import {
 
 const filterReducer = (state = {
   nameFilter: '',
-  nameTypeFilter: 0,
+  nameTypeFilter: '0',
   toolFilter: 'All',
 }, action) => {
   switch (action.type) {
