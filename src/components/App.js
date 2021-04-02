@@ -1,9 +1,9 @@
-import './App.css';
+import '../App.css';
 import { nanoid } from 'nanoid';
-import Footsection from './components/Footsection';
-import Navigation from './components/Navigation';
-import Presentation from './components/Presentation';
-import Project from './components/Project';
+import Footsection from './Footsection';
+import Navigation from './Navigation';
+import Presentation from './Presentation';
+import Project from './Project';
 
 function App() {
   const projects = [{
