@@ -1,12 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
+import thunk from 'redux-thunk';
 import App from './components/App';
+import rootReducer from './reducers/index';
+import initialState from './state/index';
+import { addProject, addTool } from './actions/index';
+
+const store = createStore(rootReducer, applyMiddleware(thunk));
+initialState.projects.forEach((project) => {
+  store.dispatch(addProject(project));
+  project.tools.forEach((tool) => store.dispatch(addTool(tool)));
+});
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root'),
 );
 
