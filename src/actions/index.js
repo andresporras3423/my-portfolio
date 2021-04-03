@@ -1,8 +1,6 @@
 import {
   ADD_TOOL,
   ADD_PROJECT,
-  CHANGE_NAME_FILTER,
-  CHANGE_NAME_TYPE_FILTER,
   CHANGE_TOOL_FILTER,
 } from '../types/index';
 
@@ -21,21 +19,11 @@ export const addTool = (nTool) => ({
   tool: nTool,
 });
 
-export const changeNameFilter = (nameFilter) => ({
-  type: CHANGE_NAME_FILTER,
-  nameFilter,
-});
-
-export const changeNameTypeFilter = (nameTypeFilter) => ({
-  type: CHANGE_NAME_TYPE_FILTER,
-  nameTypeFilter,
-});
-
 export const changeToolFilter = (toolFilter) => ({
   type: CHANGE_TOOL_FILTER,
   toolFilter,
 });
 
 export default {
-  addProject, addTool, changeNameFilter, changeNameTypeFilter, changeToolFilter,
+  addProject, addTool, changeToolFilter,
 };
