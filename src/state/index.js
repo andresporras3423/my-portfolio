@@ -15,7 +15,7 @@ const initialState = {
     name: 'Platform game', description: 'A  platform game built with Phaser3 and JavaScript. Inspired by the running dinosaur game', github: 'https://github.com/andresporras3423/platform-game', live: 'https://gifted-poitras-77933b.netlify.app/dist/index.html', url: './src/assets/platform-game.png', tools: ['JavaScript', 'HTML/CSS', 'Webpack'],
   },
   {
-    name: 'Pokemon catalogue', description: 'A pokedex with the top 100 pokemons. It Uses redux to the state managements, and routes for every pokemon details.', github: 'https://github.com/andresporras3423/catalogue-react', live: 'https://oscar-russi-pokedex.netlify.app/', url: './src/assets/pokemon-catalogue.png', tools: ['JavaScript', 'React'],
+    name: 'Pokemon catalogue', description: 'A pokedex with the top 100 pokemons. It Uses redux to the state managements, and routes for every pokemon details.', github: 'https://github.com/andresporras3423/catalogue-react', live: 'https://oscar-russi-pokedex.netlify.app/', url: './src/assets/pokemon-catalogue.png', tools: ['JavaScript', 'React', 'HTML/CSS', 'Bootstrap'],
   }],
 };
 
