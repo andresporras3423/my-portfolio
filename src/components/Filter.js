@@ -28,9 +28,9 @@ function Filter(props) {
 
   const clearForm = (event) => {
     event.preventDefault();
-    changeToolFilter('All');
-    changeNameFilter('');
-    changeNameTypeFilter('0');
+    handleToolFilter('All');
+    handleNameFilter('');
+    handleNameTypeFilter('0');
   };
   return (
     <div className="filter-container">
