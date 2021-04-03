@@ -35,8 +35,9 @@ function Filter(props) {
   return (
     <div className="filter-container">
       <form className="select-filter">
+        <h3>Filters</h3>
         <div className="two-columns">
-          <span>Filter by tool:</span>
+          <span>Tool:</span>
           <select
             className="form-control"
             value={toolFilter}
@@ -51,14 +52,14 @@ function Filter(props) {
         </div>
         <div className="two-columns">
           <select value={nameTypeFilter} className="form-control name-select" onChange={changeNameTypeFilter}>
-            <option value="0">Contains:</option>
-            <option value="1">Starts:</option>
-            <option value="2">Ends:</option>
-            <option value="3">Find exact:</option>
+            <option value="0">Title contains:</option>
+            <option value="1">Title starts with:</option>
+            <option value="2">Title ends with:</option>
+            <option value="3">Title is exactly:</option>
           </select>
           <input type="text" placeholder="empty to ignore" className="form-control" onChange={changeNameFilter} value={nameFilter} />
         </div>
-        <button type="submit" onClick={clearForm}>Clear form</button>
+        <button type="submit" className="clear-form" onClick={clearForm}>Clear form</button>
       </form>
     </div>
   );
@@ -68,8 +69,8 @@ const mapDispatchToProps = (dispatch) => ({
   handleNameFilter: (nameFilter) => {
     dispatch(changeNameFilter(nameFilter));
   },
-  handleNameTypeFilter: (typeFilter) => {
-    dispatch(changeNameTypeFilter(typeFilter));
+  handleNameTypeFilter: (nameTypeFilter) => {
+    dispatch(changeNameTypeFilter(nameTypeFilter));
   },
   handleToolFilter: (toolFilter) => {
     dispatch(changeToolFilter(toolFilter));

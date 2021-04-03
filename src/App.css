@@ -565,6 +565,48 @@ left: 9px;
 font-size: 20px;
 }
 
+.filter-container {
+  display: grid;
+  grid-template-columns: 1fr 18fr 1fr;
+  border-radius:10px;
+  background-color: rgb(223, 222, 225);
+  color: rgb(90, 93, 122);
+  margin-top: 40px;
+  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.filter-container > * {
+  grid-column: 2;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5px;
+  grid-gap: 5px;
+  align-items: center;
+}
+
+.two-columns > * {
+  margin: 5px;
+}
+
+.name-select,
+.name-select:focus {
+  background-color: rgb(213, 212, 215);
+  color: rgb(90, 93, 122);
+}
+
+
+.clear-form {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 @media all and (max-width: 1500px) {
 .app{
   display: grid;
@@ -577,6 +619,7 @@ font-size: 20px;
   grid-row: 1;
 }
 }
+
 
 @media all and (max-width: 1199px){
 .tools-style, .project-description{
@@ -729,6 +772,9 @@ font-size: 20px;
   width: 80px;
   height: 40px;
   font-size: 16px;
+}
+.two-columns {
+  grid-template-columns: 1fr;
 }
 }
 
