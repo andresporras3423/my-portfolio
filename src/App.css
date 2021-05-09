@@ -572,9 +572,8 @@ font-size: 20px;
   background-color: rgb(223, 222, 225);
   color: rgb(90, 93, 122);
   margin-top: 40px;
-  margin-bottom: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .filter-container > * {
