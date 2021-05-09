@@ -21,7 +21,7 @@ function Project(props) {
       <div className={[direction[(index + 1) % 2], info, row2].join(' ')}>
         <h3 className="project-title">{project.name}</h3>
         <p className="project-description">{project.description}</p>
-        <p>
+        <p className="grid-projects">
           {
                     project.tools.map((tool) => (
                       <span className="tools-style" key={nanoid()}>{tool}</span>
