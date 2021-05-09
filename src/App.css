@@ -97,10 +97,6 @@ body {
   justify-content: center;
 }
 
-.photo-div > article > * {
-  flex-basis: 100px;
-}
-
 .text-title {
   font-family: 'Press Start 2P', cursive;
   color: rgb(161, 169, 234);
@@ -339,6 +335,10 @@ body {
   margin: 5px;
 }
 
+.photo-div > article > * {
+  flex-basis: 100px;
+}
+
 .name-select,
 .name-select:focus {
   background-color: rgb(213, 212, 215);
@@ -530,15 +530,16 @@ body {
     font-size: 14px;
   }
 
-  .photo-div > article > p {
-    font-size: 12px;
-  }
-
   .title-style {
     font-size: 19px;
   }
 
   .about p {
+    font-size: 12px;
+  }
+
+
+  .photo-div > article > p {
     font-size: 12px;
   }
 
