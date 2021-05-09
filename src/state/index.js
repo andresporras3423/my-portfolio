@@ -10,7 +10,7 @@ const initialState = {
       name: 'Platform game', description: 'A  platform game built with Phaser3 and JavaScript. Inspired by the running dinosaur game', github: 'https://github.com/andresporras3423/platform-game', live: 'https://gifted-poitras-77933b.netlify.app/dist/index.html', url: './src/assets/platform-game.png', tools: ['JavaScript', 'HTML/CSS', 'Webpack'],
     },
     {
-      name: 'The Cool Writer', description: 'A blog with articles about lot of different random topics. Any user can sign up and add articles', github: 'https://github.com/andresporras3423/articles-project', live: 'https://blueberry-custard-86240.herokuapp.com/', url: './src/assets/articles.png', tools: ['Ruby On Rails', 'Ruby', 'SQL', 'HTML/CSS', 'Bootstrap'],
+      name: 'The Cool Writer', description: 'A blog with articles about lot of different random topics. Any user can sign up and add articles', github: 'https://github.com/andresporras3423/articles-project', live: 'https://blueberry-custard-86240.herokuapp.com/', url: './src/assets/articles.png', tools: ['Ruby on Rails', 'Ruby', 'SQL', 'HTML/CSS', 'Bootstrap'],
     },
     {
       name: 'Weather Bot', description: 'This telegram bot give you updates of temperature of any city or country in the world.', github: 'https://github.com/andresporras3423/weather-bot-ruby', live: 'https://web.telegram.org/#/im?p=@weather3423_bot', url: './src/assets/weather-bot.png', tools: ['Ruby', 'Telegram API'],
