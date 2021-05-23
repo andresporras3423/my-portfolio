@@ -1,6 +1,9 @@
 const initialState = {
   projects: [
     {
+      name: 'Technos', description: 'Save commands and concepts from different technologies.', github: 'https://github.com/andresporras3423/technos-front', live: 'https://technos-andres-porras.netlify.app/', url: './src/assets/technos.png', tools: ['JavaScript', 'React', 'HTML/CSS', 'Bootstrap', 'Ruby', 'Ruby on Rails', 'SQL'],
+    },
+    {
       name: 'Count letters', description: 'The name of this game is self descriptive, count how many of the specified letter you can see in the matrix.', github: 'https://github.com/andresporras3423/count-letters-front', live: 'https://count-letters-andres-porras.netlify.app/', url: './src/assets/count-letters.png', tools: ['JavaScript', 'React', 'HTML/CSS', 'Bootstrap', 'Ruby', 'Ruby on Rails', 'SQL'],
     },
     {
