@@ -1,6 +1,12 @@
 const initialState = {
   projects: [
     {
+      name: 'Tic-tac-toe-ai', description: 'A simple tic tac toe game to play against computer', github: 'https://github.com/andresporras3423/tic_tac_toe_ai', live: 'http://tic-tac-toe-ai.s3-website-us-east-1.amazonaws.com/', url: './src/assets/tic-tac-toe-ai.png', tools: ['JavaScript', 'React', 'HTML/CSS', 'Bootstrap'],
+    },
+    {
+      name: 'Chessmemo', description: 'Get a chess position and you have to give how many valid moves has the next player', github: 'https://github.com/andresporras3423/chessmemo-front', live: 'https://andresporras-chessmemo.netlify.app/', url: './src/assets/chessmemo.png', tools: ['JavaScript', 'React', 'HTML/CSS', 'Bootstrap', 'Ruby', 'Ruby on Rails', 'SQL'],
+    },
+    {
       name: 'Technos', description: 'Save commands and concepts from different technologies.', github: 'https://github.com/andresporras3423/technos-front', live: 'https://technos-andres-porras.netlify.app/', url: './src/assets/technos.png', tools: ['JavaScript', 'React', 'HTML/CSS', 'Bootstrap', 'Ruby', 'Ruby on Rails', 'SQL'],
     },
     {
@@ -23,7 +29,7 @@ const initialState = {
     },
     {
       name: 'English Project', description: 'A website with diferente resources and features to improve your english', github: 'https://github.com/andresporras3423/english-project', live: 'https://englishproject000.000webhostapp.com/ep/index.html', url: './src/assets/english-project.png', tools: ['Vue.js', 'JavaScript', 'SQL', 'PHP', 'HTML/CSS', 'Bootstrap'],
-    },
+    }
   ],
 };
 
