@@ -48,12 +48,12 @@ function Presentation() {
             <p>
               <strong>Languages:</strong>
               {' '}
-              Ruby, JavaScript, C#, Typescript
+              Ruby, JavaScript, C#, Typescript, Python
             </p>
             <p>
               <strong>Other tools:</strong>
               {' '}
-              Ruby On Rails, ASP.NET, React, Angular, SQL, GitHub, Linux
+              Ruby On Rails, ASP.NET, React, SQL, GitHub, Linux, Flask
             </p>
             <p>
               <strong>Education:</strong>
