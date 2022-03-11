@@ -29,7 +29,7 @@ const initialState = {
     },
     {
       name: 'English Project', description: 'A website with diferente resources and features to improve your english', github: 'https://github.com/andresporras3423/english-project', live: 'https://englishproject000.000webhostapp.com/ep/index.html', url: './src/assets/english-project.png', tools: ['Vue.js', 'JavaScript', 'SQL', 'PHP', 'HTML/CSS', 'Bootstrap'],
-    }
+    },
   ],
 };
 
