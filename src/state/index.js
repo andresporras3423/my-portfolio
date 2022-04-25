@@ -1,6 +1,9 @@
 const initialState = {
   projects: [
     {
+      name: 'Chessgame', description: 'A chess board that you can use to play human vs human', github: 'https://github.com/andresporras3423/chessgame', live: 'http://chessgame-andres-porras.s3-website-us-east-1.amazonaws.com/', url: './src/assets/chessgame.png', tools: ['JavaScript', 'React', 'HTML/CSS', 'Bootstrap'],
+    },
+    {
       name: 'Tic-tac-toe-ai', description: 'A simple tic tac toe game to play against computer', github: 'https://github.com/andresporras3423/tic_tac_toe_ai', live: 'http://tic-tac-toe-ai.s3-website-us-east-1.amazonaws.com/', url: './src/assets/tic-tac-toe-ai.png', tools: ['JavaScript', 'React', 'HTML/CSS', 'Bootstrap'],
     },
     {
